@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS empleados(
     jefe_id INT
 );
 
-CREATE TABLE IF NOT EXISTS empleados(
+CREATE TABLE IF NOT EXISTS productos(
     id SERIAL PRIMARY KEY,
     nombre TEXT,
     etiquetas TEXT[]
