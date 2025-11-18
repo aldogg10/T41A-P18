@@ -5,6 +5,6 @@ INSERT INTO empleados (nombre, jefe_id) VALUES
 ('Pedro', 2);
 
 INSERT INTO productos (nombre, etiquetas)
-VALUES ('TV', ARRAY['Electronico', 'Descuento', 'Hogar']),
+VALUES ('TV', ARRAY['Tecnologia', 'Descuento', 'Hogar']),
         ('Libro', ARRAY['Lectura', 'Regalo', 'Accesorio']),
         ('Playera', ARRAY['Ropa', 'Tela', 'Deportivo']);
